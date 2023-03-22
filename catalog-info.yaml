@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-sample-service
+  description: sample indexer service
+  labels:
+    system: indexer
+  tags:
+    - indexer
+    - search
+  links:
+    - url: https://github.com/pedrojpx/backstage-sample-service
+      title: Backstage Sample Service GitHub
+      icon: code
+spec:
+  type: service
+  lifecycle: experimental
+  owner: pedrojpx
